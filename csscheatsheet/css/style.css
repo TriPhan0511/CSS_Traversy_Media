@@ -155,3 +155,58 @@ a:active {
   padding: 15px;
   box-sizing: border-box;
 }
+
+.p-box {
+  width: 800px;
+  height: 500px;
+  border: 1px solid #000;
+  margin-top: 30px;
+  position: relative;
+
+  /* background-image: url(../images/light-blue-background.jpg); */
+  background-image: url(../images/bg_image.jpg);
+  background-repeat: no-repeat;
+  /* background-position: 100px 200px; */
+  background-position: center center;
+  /* background-position: center top; */
+  /* background-position: center bottom; */
+  /* background-position: left bottom; */
+  /* background-position: right bottom; */
+}
+
+.p-box h1 {
+  position: absolute;
+  top: 100px;
+  left: 200px;
+}
+
+.p-box h2 {
+  position: absolute;
+  bottom: 40px;
+  right: 100px;
+}
+
+.fix-me {
+  position: fixed;
+  top: 400px;
+}
+
+/* .my-list li:hover {
+  color: purple;
+} */
+
+.my-list li:first-child {
+  background: red;
+}
+
+.my-list li:last-child {
+  background: blue;
+}
+
+.my-list li:nth-child(5) {
+  background: yellow;
+}
+
+.my-list li:nth-child(even) {
+  background: grey;
+}
